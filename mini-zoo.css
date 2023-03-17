@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(244, 244, 140); 
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+table,
+td {
+    border: 2px solid black;
+    text-align: center;
+    column-width: 250px;
+}
+
+thead {
+    font-size: 36px;
+}
+tfoot {
+    background-color: white;
+    color: lavender;
+}
+
+.wrapper {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figure {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
