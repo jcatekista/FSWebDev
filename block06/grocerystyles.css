@@ -42,3 +42,9 @@ h3 {
 img {
   max-width: 100%;
 }
+
+footer {
+  background-color: dodgerblue;
+  text-align: center;
+  width: 100%;
+}
