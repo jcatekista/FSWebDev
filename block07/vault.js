@@ -17,18 +17,32 @@ alert(
 
 // const used as variables for arithmetic operator
 const num1 = 5 + 5;
-alert(num1);
+alert("Your" + " " + "First" + " " + "Number" + " " + "Is" + " " + num1);
 
 const num2 = 4 * 10;
-alert(num2);
+alert("Your" + " " + "Second" + " " + "Number" + " " + "Is" + " " + num2);
 
-const num3 = 100 - 61;
-alert(num3);
+const num3 = 39 % 100;
+alert("Your" + " " + "Last" + " " + "Number" + " " + "Is" + " " + num3);
 
-//string alerts for combination
 let str1 = "10";
 let str2 = "40";
 let str3 = "39";
-alert("Here is the secret combination");
-
-alert(str1 + " " + str2 + " " + str3);
+alert(
+  "Here" +
+    " " +
+    "is" +
+    " " +
+    "the" +
+    " " +
+    "secret" +
+    " " +
+    "combination" +
+    ":" +
+    "\n" +
+    str1 +
+    ":" +
+    str2 +
+    ":" +
+    str3
+);
