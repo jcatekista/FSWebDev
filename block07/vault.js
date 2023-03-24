@@ -25,24 +25,12 @@ alert("Your" + " " + "Second" + " " + "Number" + " " + "Is" + " " + num2);
 const num3 = 39 % 100;
 alert("Your" + " " + "Last" + " " + "Number" + " " + "Is" + " " + num3);
 
-let str1 = "10";
-let str2 = "40";
-let str3 = "39";
 alert(
-  "Here" +
-    " " +
-    "is" +
-    " " +
-    "the" +
-    " " +
-    "secret" +
-    " " +
-    "combination" +
-    ":" +
+  "Here is the secret combination :" +
     "\n" +
-    str1 +
+    num1 +
     ":" +
-    str2 +
+    num2 +
     ":" +
-    str3
+    num3
 );
