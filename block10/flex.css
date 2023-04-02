@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  article {
+    margin: 0 auto !important;
+    padding: 0 !important
+  }
+.container {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    border-radius: 10px;
+    z-index: 5;
+    fill-opacity: 25%   ;
+}
+.box1 {
+    display: flex;
+    background-color: cadetblue;
+    padding: 5px 5px 5px 5px;
+    border: lightgrey solid 2px;
+    border-radius: 15px;
+    width: 33%;
+    z-index: 3;
+    filter: opacity(80%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.box2 {
+    display: flex;
+    background-color: cadetblue;
+    padding: 5px 5px 5px 5px;
+    border: lightgrey solid 2px;
+    border-radius: 15px;
+    width: 100%;
+    z-index: 3;
+    filter: opacity(80%);
+}
+form {
+    padding: 5px;
+}
