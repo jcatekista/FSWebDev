@@ -13,6 +13,7 @@ body {
   background-size: cover;
 }
 h1 {
+  z-index: 10;
   font-size: 60px;
   color: black;
   text-shadow: cadetblue 3px 3px;
@@ -53,4 +54,59 @@ h1 {
 }
 form {
   padding: 5px 5px 5px 5px;
+}
+.triangle {
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  border-bottom: 6em solid rgb(218, 227, 224);
+  position: absolute;
+  top: 1.5em;
+  left: 18rem;
+}
+.triangle2 {
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  border-bottom: 6em solid rgb(218, 227, 224);
+  position: absolute;
+  top: 1.5em;
+  left: 32rem;
+}
+.triangle3 {
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  border-bottom: 3em solid rgb(151, 214, 193);
+  position: absolute;
+  top: 4.5em;
+  left: 23rem;
+}
+.triangle4 {
+  z-index: -2;
+  width: 0;
+  height: 0;
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  border-bottom: 2em solid rgb(52, 168, 179);
+  position: absolute;
+  top: 5.5em;
+  left: 27rem;
+}
+.dot {
+  z-index: -1;
+  height: 45px;
+  width: 45px;
+  background-color: gold;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 2em;
+  left: 32rem;
 }
